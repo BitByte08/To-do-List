@@ -2,6 +2,13 @@ const insert = document.getElementById("todo_btn");
 const notcomplete = document.getElementsByClassName("not_complete");
 const complete = document.getElementsByClassName("complete");
 
+let today = new Date();  
+let year = today.getFullYear(); // 년도
+let month = today.getMonth() + 1;  // 월
+let date = today.getDate();  // 날짜
+let day = today.getDay(); 
+document.getElementById("day").textContent=(year + '/' + month + '/' + date);
+
 function insert_todo(){
     var inserttext = document.getElementById("todo").value;
     document.getElementById("todo").value='';
