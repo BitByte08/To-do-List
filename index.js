@@ -2,7 +2,7 @@ const insert = document.getElementById("todo_btn");
 const notcomplete = document.getElementsByClassName("not_complete");
 const complete = document.getElementsByClassName("complete");
 
-let today = new Date();  
+let today = new Date();
 let year = today.getFullYear(); // 년도
 let month = today.getMonth() + 1;  // 월
 let date = today.getDate();  // 날짜
