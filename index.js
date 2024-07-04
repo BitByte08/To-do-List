@@ -9,7 +9,7 @@ let date = today.getDate();  // 날짜
 let day = today.getDay(); 
 document.getElementById("day").textContent=(year + '/' + month + '/' + date);
 
-complete[0].addEventListener("click",allremeve,false);
+document.getElementById('delete').addEventListener("click",allremeve,false);
 function insert_todo(){
     var inserttext = document.getElementById("todo").value;
     document.getElementById("todo").value='';

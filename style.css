@@ -51,6 +51,11 @@ html,body{
 }
 #textdiv{
     margin: 10px;
+    font-size: large;
+}
+#textdiv:hover{
+    font-size:x-large;
+    color:darkblue;
 }
 body{
     padding-top: 100px;
