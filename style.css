@@ -7,7 +7,7 @@ html,body{
     min-height: 100vh;
 }
 #todo{
-    background-color: #e5e5e5;
+    background-color: #E5E3E4;
     border: none;
     width : 65%;
     height: 30px;
@@ -19,9 +19,10 @@ html,body{
     width : 25%;
     height: 30px;
     border-radius: 15px;
+    background-color: #E5E3E4;
 }
 #todo_input{
-    background-color: #8d99ae;
+    background-color: #DDBEAA;
     width: 25%;
     padding: 5px;
     border-radius: 20px;
@@ -34,14 +35,14 @@ html,body{
     grid-template-rows: 1fr 30px 1fr 30px;
 }
 .not_complete{
-    background-color: #bde0fe;
+    background-color: #BBC6C8;
     border-radius: 15px;
     width: 55%;
     margin: 10px auto 10px auto;
     text-align: left;
 }
 .complete{
-    background-color: #a2d2ff;
+    background-color: #5BA199;
     border-radius: 15px;
     width: 55%;
     margin: 50px auto 10px auto;
@@ -58,7 +59,8 @@ p > span{
     margin: 10%;
 }
 #top{
-    background-color: rgb(192, 232, 250);
+    background-color: #469597
+    ;
     width: 100%;
     top: -5px;
     left: 0px;
