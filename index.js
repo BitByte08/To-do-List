@@ -9,7 +9,7 @@ function insert_todo(){
         DivNode = makedivnode(inserttext);
         notcomplete[0].appendChild(DivNode);
     }else{
-        alert("입력하세요");
+        alert("내용을 입력하세요");
     }
 }
 
