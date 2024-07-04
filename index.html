@@ -11,21 +11,26 @@
     <link rel="icon" href="/img/logo.png"/>
 </head>
 <body>
-    <h2 id="day"></h2>
-    <span><h1 style="display: inline;">To-do List</h1></span>
-    <div id="todo_input"><input type="text" name="" id="todo"><input type="button" id="todo_btn" value="추가"></div>
-    <div class="list">
-        <div class="not_complete">
+
+    <header id="top">
+        <h2 id="day"></h2>
+        <span><h1 style="display: inline;">To-do List</h1></span>
+        <div id="todo_input"><input type="text" name="" id="todo"><input type="button" id="todo_btn" value="추가"></div>
+    </header>
+    <main>
+        <div class="list">
+            <div class="not_complete">
+            </div>
+            <div><h2>해야 할 일</h2></div>
+            <div class="complete">
+            </div>
+            <div><h2>끝낸 일</h2></div>
         </div>
-        <div><h2>해야 할 일</h2></div>
-        <div class="complete">
-        </div>
-        <div><h2>끝낸 일</h2></div>
-    </div>
-    <br>
-    <br>
-    <hr>
-    <p><span><a href="https://www.flaticon.com/kr/packs/education-15727910">아이콘 출처</a></span><span><a href="https://fonts.google.com/selection/embed">폰트 출처</a></span></p>
+        <br>
+        <br>
+        <hr>
+        <p><span><a href="https://www.flaticon.com/kr/packs/education-15727910">아이콘 출처</a></span><span><a href="https://fonts.google.com/selection/embed">폰트 출처</a></span></p>
+    </main>
     <script src="index.js"></script>
 </body>
 </html>

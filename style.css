@@ -51,12 +51,24 @@ html,body{
 #textdiv{
     margin: 10px;
 }
-#day{
-    position : fixed;
-    top: -15px;
-    bottom: 10px;
+body{
+    padding-top: 100px;
 }
 p > span{
     margin: 10%;
 }
-  
+#top{
+    background-color: rgb(192, 232, 250);
+    width: 100%;
+    top: -5px;
+    left: 0px;
+    position : fixed;
+    height: 100px;
+    padding-top: 5px;
+}
+#day{
+    position : fixed;
+    top: -15px;
+    left: 10px;
+    bottom: 10px;
+}
