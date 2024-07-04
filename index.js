@@ -9,6 +9,7 @@ let date = today.getDate();  // 날짜
 let day = today.getDay(); 
 document.getElementById("day").textContent=(year + '/' + month + '/' + date);
 
+complete[0].addEventListener("click",allremeve,false);
 function insert_todo(){
     var inserttext = document.getElementById("todo").value;
     document.getElementById("todo").value='';
@@ -22,8 +23,8 @@ function insert_todo(){
 
 function makedivnode(inserttext){
     var DivNode = document.createElement('div');
-    DivNode.appendChild(maketextnode(inserttext));
     DivNode.appendChild(checkbox());
+    DivNode.appendChild(maketextnode(inserttext));
     DivNode.setAttribute('id','textdiv');
     DivNode.setAttribute('display','inline-block');
     return DivNode;
@@ -57,5 +58,11 @@ function p(){
             var temp = ckbs[i].parentNode;
             notcomplete[0].appendChild(temp);
         }
+    }
+}
+
+function allremeve(){
+    if(confirm('끝낸 일을 지우시겠습니까?')){
+        complete[0].replaceChildren();
     }
 }
